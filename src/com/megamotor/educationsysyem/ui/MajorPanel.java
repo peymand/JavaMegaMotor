@@ -4,5 +4,19 @@ package com.megamotor.educationsysyem.ui;
  * 
  * */
 public class MajorPanel {
+/*
+ * namereshte:
+ * Codereshte:
+ * daneshkade:
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
 
 }
