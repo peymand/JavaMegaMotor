@@ -3,6 +3,8 @@ package com.megamotor.educationsysyem.ui;
 public class Appstart {
 	public static void main(String[] args) {
 
+		MainFrame mainFrame = new MainFrame();
+		
 		System.out.println("hiiiii");
 	}
 }
