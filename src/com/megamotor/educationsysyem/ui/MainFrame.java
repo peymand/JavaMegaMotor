@@ -1,8 +1,17 @@
 package com.megamotor.educationsysyem.ui;
+
+//import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JTabbedPane;
+
 /*
  * @Author Mr Farhikhteh
+ * 
+ * Started: 1395/06/10
  * */
-public class MainFrame {
+public class MainFrame extends JFrame{
 
 	MajorPanel majorPanel;
 	CoursePanel coursePanel;
@@ -11,10 +20,11 @@ public class MainFrame {
 	
 	JTabbedPane tabbedPane;
 	
-	public void MainFrame(String title){
+	public MainFrame(String title){
 		super(title);
 		setSize(500,500);
-		setLayout(new FlowLayout);
+//		setLayout(new BorderLayout());
+		setLayout(new FlowLayout());
 		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
